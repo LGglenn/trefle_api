@@ -1,0 +1,19 @@
+{
+  "name": "trefle_api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:LGglenn/trefle_api.git",
+  "author": "glenn <glennlegal56@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "netlify dev",
+    "test": "jest ./tests"
+  },
+  "dependencies": {
+    "@netlify/functions": "^2.6.0",
+    "axios": "^1.6.7",
+    "jest": "^29.7.0",
+    "lambda-tester": "^4.0.1",
+    "netlify-cli": "^17.18.1"
+  }
+}
