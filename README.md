@@ -25,3 +25,26 @@ return : {
             {"scientific_name":"string,"year":number}
         ]
     }
+
+# Part2 
+
+url for api run locally : "http://localhost:8888/api/part2"
+
+GET : /api/part2
+
+    parameters : {
+        family_common_name: string required
+    }
+
+return : {
+    "message":"success",
+    "data":[
+            {
+                "scientific_name":string,
+                "year":number,
+                "genus_family_common_name":string,
+                "species_observation":string,
+            },
+            ...
+        ]
+    }
